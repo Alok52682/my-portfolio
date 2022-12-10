@@ -2,7 +2,7 @@ import React from 'react';
 import bannerImg from '../../../Assets/work-Space.webp';
 import '../../../App.css';
 import './Baner.css';
-import { FaDownload } from 'react-icons/fa';
+// import { FaDownload } from 'react-icons/fa';
 
 const Banner = () => {
     return (
@@ -17,8 +17,7 @@ const Banner = () => {
                 <p className='text-5xl text-white'>Web Developer</p>
             </div>
             <div className="absolute flex justify-start transform w-2/5 -translate-y-1/2 left-24 top-2/3">
-                <button className="btn btn-warning hover:text-white mr-5">Resume <FaDownload className='ml-1' /></button>
-                <button className="btn bg-gradient-to-r from-cyan-500 to-blue-500 border-0">Resume <FaDownload className='ml-1' /></button>
+                {/* <button className="btn btn-warning hover:text-white mr-5">Resume <FaDownload className='ml-1' /></button> */}
             </div>
         </div>
     );

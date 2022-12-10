@@ -11,7 +11,7 @@
 }
 
 .text-overColor {
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#5ae7d4, rgb(107, 107, 231));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
