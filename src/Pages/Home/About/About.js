@@ -5,7 +5,7 @@ import profile from '../../../Assets/Professional (1).jpg';
 
 const About = () => {
     return (
-        <div className="hero bg-slate-900">
+        <div className="hero">
             <div className="hero-content my-20 flex-col lg:flex-row">
                 <div className='lg:w-1/2 text-center p-5'>
                     <div className='w-1/2 relative'>

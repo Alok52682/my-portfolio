@@ -1,12 +1,14 @@
 import React from 'react';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
+import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
-        <div>
+        <div className=' bg-slate-900'>
             <Banner />
             <About />
+            <Skills />
         </div>
     );
 };
