@@ -2,6 +2,7 @@ import React from 'react';
 import '../Banner/Baner.css';
 import { FaDownload } from 'react-icons/fa';
 import profile from '../../../Assets/Professional (1).jpg';
+import resume from '../../../Assets/My Resume.pdf';
 
 const About = () => {
     return (
@@ -11,7 +12,9 @@ const About = () => {
                     <div className='w-1/2 relative'>
                         <div className="w-[300px] h-[300px] shadow-2xl border-8 border-info" ></div>
                         <img src={profile} className="absolute w-[300px] h-[300px] -right-20 top-20 shadow-2xl drop-shadow-xl" alt='' />
-                        <button className="btn rounded-none bg-gradient-to-r from-cyan-500 to-blue-500 border-0 mt-5 drop-shadow-xl absolute -right-60 -top-4">Download Resume <FaDownload className='ml-1' /></button>
+                        <a href={resume} download={resume}>
+                            <button className="btn rounded-none bg-gradient-to-r from-cyan-500 to-blue-500 border-0 mt-5 drop-shadow-xl absolute -right-60 -top-4">Download Resume <FaDownload className='ml-1' /></button>
+                        </a>
                     </div>
                 </div>
                 <div className='lg:w-1/2'>
