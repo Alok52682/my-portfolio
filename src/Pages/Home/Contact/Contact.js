@@ -19,7 +19,7 @@ const Contact = () => {
             });
     };
     return (
-        <div>
+        <div id='contact'>
             <h2 className="text-5xl font-bold text-overColor text-center my-20">Contact Me</h2>
             <form ref={form} onSubmit={sendEmail} className='w-10/12 mx-auto bg-slate-800 p-10 text-center'>
                 <div className='md:flex justify-between gap-6'>
