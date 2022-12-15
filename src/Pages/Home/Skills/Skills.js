@@ -43,11 +43,47 @@ const Skills = () => {
                 </div>
                 <div className="form-control w-full">
                     <label className="label">
+                        <span className="label-text text-xl text-white">Tailwind CSS</span>
+                        <span className="label-text-alt text-xl text-white">90%</span>
+                    </label>
+                    <div className="w-full bg-gray-200 h-5 mb-6">
+                        <div className="bg-info h-5 w-full" style={{ width: '90%' }}></div>
+                    </div>
+                </div>
+                <div className="form-control w-full">
+                    <label className="label">
+                        <span className="label-text text-xl text-white">Bootstrap</span>
+                        <span className="label-text-alt text-xl text-white">90%</span>
+                    </label>
+                    <div className="w-full bg-gray-200 h-5 mb-6">
+                        <div className="bg-info h-5 w-full" style={{ width: '90%' }}></div>
+                    </div>
+                </div>
+                <div className="form-control w-full">
+                    <label className="label">
                         <span className="label-text text-xl text-white">NodeJs</span>
                         <span className="label-text-alt text-xl text-white">80%</span>
                     </label>
                     <div className="w-full bg-gray-200 h-5 mb-6">
                         <div className="bg-info h-5 w-full" style={{ width: '80%' }}></div>
+                    </div>
+                </div>
+                <div className="form-control w-full">
+                    <label className="label">
+                        <span className="label-text text-xl text-white">Firebase Authentication</span>
+                        <span className="label-text-alt text-xl text-white">80%</span>
+                    </label>
+                    <div className="w-full bg-gray-200 h-5 mb-6">
+                        <div className="bg-info h-5 w-full" style={{ width: '80%' }}></div>
+                    </div>
+                </div>
+                <div className="form-control w-full">
+                    <label className="label">
+                        <span className="label-text text-xl text-white">ExpressJs</span>
+                        <span className="label-text-alt text-xl text-white">70%</span>
+                    </label>
+                    <div className="w-full bg-gray-200 h-5 mb-6">
+                        <div className="bg-info h-5 w-full" style={{ width: '70%' }}></div>
                     </div>
                 </div>
                 <div className="form-control w-full">
