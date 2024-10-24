@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Banner/Baner.css';
 import { FaDownload } from 'react-icons/fa';
-import profile from '../../../Assets/Professional (1).jpg';
+import profile from '../../../Assets/114785.jpg';
 import resume from '../../../Assets/My Resume.pdf';
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
                 </div>
                 <div className='lg:w-1/2'>
                     <h1 className="text-5xl font-bold text-overColor drop-shadow-xl text-center md:text-left">ABOUT ME</h1>
-                    <p className="py-6 text-white">Hello! I’m Alok Rajbongshi. Web Developer with over 8 months of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, ReactJs, NextJs. Strong background in project management.</p>
+                    <p className="py-6 text-white">Hello! I’m Alok Rajbongshi. Web Developer with over 2 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, ReactJs, NextJs. Strong background in project management.</p>
 
                     <p className='text-xl text-white leading-loose'><span className='text-info'>NAME:</span> Alok Rajbongshi</p>
                     <p className='text-xl text-white leading-loose'><span className='text-info'>DATE OF BIRTH:</span> 10 May 2001</p>
